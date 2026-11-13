@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: frank-sheppard-ltd
+  description: "Profile repository of the Frank-Sheppard-Ltd organization."
+  annotations:
+    github.com/project-slug: Frank-Sheppard-Ltd/Frank-Sheppard-Ltd
+    rag/visibility: internal
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:default/frank-sheppard-ltd
